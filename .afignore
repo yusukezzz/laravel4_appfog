@@ -1,0 +1,49 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+
+# intellij IDEA
+.idea/
+*.iml
+
+# Dreamweaver added files
+_notes
+dwsync.xml
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Folders to ignore
+.hg/
+.svn/
+.CVS/
+intermediate/
+publish/
+.git/
+
+# laravel environment dependencies
+app/storage/cache/*
+app/storage/database/*
+app/storage/logs/*
+app/storage/sessions/*
+app/storage/views/*
+app/storage/work/*
