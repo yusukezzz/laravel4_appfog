@@ -13,6 +13,5 @@
 
 Route::get('/', function()
 {
-    Log::info('can you logging this?');
 	return View::make('hello');
 });
